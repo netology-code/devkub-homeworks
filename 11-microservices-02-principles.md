@@ -25,19 +25,22 @@
 
 Необходимо воспользоваться любым балансировщиком и сделать API Gateway:
 
-1. POST /v1/register
-  Анонимный доступ.
-  Запрос направляется в сервис security POST /v1/user
+**POST /v1/register**
+- Анонимный доступ.
+- Запрос направляется в сервис security POST /v1/user
 
-2. POST /v1/token
-  Анонимный доступ.
-Запрос направляется в сервис security POST /v1/token
-GET /v1/user
-Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
-Запрос направляется в сервис security GET /v1/user
-POST /v1/upload
-Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
-Запрос направляется в сервис uploader POST /v1/upload
-GET /v1/user/{image}
-Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
-Запрос направляется в сервис minio  GET /images/{image}
+**POST /v1/token**
+- Анонимный доступ.
+- Запрос направляется в сервис security POST /v1/token
+
+**GET /v1/user**
+- Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
+- Запрос направляется в сервис security GET /v1/user
+
+**POST /v1/upload**
+- Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
+- Запрос направляется в сервис uploader POST /v1/upload
+
+**GET /v1/user/{image}**
+- Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
+- Запрос направляется в сервис minio  GET /images/{image}
