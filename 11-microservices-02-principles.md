@@ -7,24 +7,29 @@
 ## Задача 1: API Gateway
 
 Есть три сервиса:
-- *minio*
-Хранит загруженные файлы в бакете images
-S3 протокол
-uploader
-Принимает файл, если он картинка сжимает и загружает его в minio
-POST /v1/upload
-security
-Регистрация пользователя POST /v1/user
-Получение информации о пользователе GET /v1/user
-Логин пользователя POST /v1/token
-Проверка токена GET /v1/token/validation
+
+- **minio
+  Хранит загруженные файлы в бакете images
+  S3 протокол
+
+- **uploader
+  Принимает файл, если он картинка сжимает и загружает его в minio
+  POST /v1/upload
+
+- **security
+  Регистрация пользователя POST /v1/user
+  Получение информации о пользователе GET /v1/user
+  Логин пользователя POST /v1/token
+  Проверка токена GET /v1/token/validation
 
 Необходимо воспользоваться любым балансировщиком и сделать API Gateway:
-POST /v1/register
-Анонимный доступ.
-Запрос направляется в сервис security POST /v1/user
-POST /v1/token
-Анонимный доступ.
+
+1. POST /v1/register
+  Анонимный доступ.
+  Запрос направляется в сервис security POST /v1/user
+
+2. POST /v1/token
+  Анонимный доступ.
 Запрос направляется в сервис security POST /v1/token
 GET /v1/user
 Проверка токена. Токен ожидается в заголовке Authorization. Токен проверяется через вызов сервиса security GET /v1/token/validation/
