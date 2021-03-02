@@ -12,7 +12,7 @@
 
 11.1. [Введение в микросервисы](https://github.com/netology-code/devkub-homeworks/blob/main/11-microservices-01-intro.md)
 
-11.2. [Микросервисы: принципы]()
+11.2. [Микросервисы: принципы](https://github.com/netology-code/devkub-homeworks/blob/main/11-microservices-02-principles.md)
 
 11.3. [Микросервисы: подходы]()
 
