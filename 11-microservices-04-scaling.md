@@ -10,3 +10,4 @@
 
 ### Схема:
 
+https://drive.google.com/file/d/129_DE9mtkAAJkxbIztuogFHuZ0dl4TVR/view?usp=sharing
