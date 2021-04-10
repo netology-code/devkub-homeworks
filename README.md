@@ -16,7 +16,7 @@
 
 11.3. [Микросервисы: подходы](https://github.com/netology-code/devkub-homeworks/blob/main/11-microservices-03-approaches.md)
 
-11.4. [Микросервисы: практика]()
+11.4. [Микросервисы: масштабирование]()
 
 
 ## Модуль 12. Администрирование кластера Kubernetes
