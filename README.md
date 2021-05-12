@@ -21,7 +21,7 @@
 
 ## Модуль 12. Администрирование кластера Kubernetes
 
-12.1. [Компоненты Kubernetes]()
+12.1. [Компоненты Kubernetes](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-01-intro.md)
 
 12.2. [Команды для работы с Kubernetes]()
 
