@@ -47,4 +47,4 @@
 
 ## Дополнительные материалы
 
-[Модуль 11. Микросервисная архитектура]()
+[Модуль 11. Микросервисная архитектура](https://github.com/netology-code/devkub-homeworks/tree/main/11-microservices-02-principles)
