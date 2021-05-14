@@ -23,7 +23,7 @@
 
 12.1. [Компоненты Kubernetes](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-01-intro.md)
 
-12.2. [Команды для работы с Kubernetes]()
+12.2. [Команды для работы с Kubernetes](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-02-commands.md)
 
 12.3. [Развертывание кластера на собственных серверах, лекция 1]()
 
