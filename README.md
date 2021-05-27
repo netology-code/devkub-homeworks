@@ -29,7 +29,7 @@
 
 12.4. [Развертывание кластера на собственных серверах, лекция 2](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-04-install-part-2.md)
 
-12.5. [Сетевые решения CNI]()
+12.5. [Сетевые решения CNI](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-05-cni.md)
 
 
 ## Модуль 13. Конфигурация Kubernetes	
