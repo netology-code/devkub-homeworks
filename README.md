@@ -34,17 +34,18 @@
 
 ## Модуль 13. Конфигурация Kubernetes	
 
-13.1. [Контейнеры, поды, deployment, statefulset, services, endpoints]()
+13.1. [Контейнеры, поды, deployment, statefulset, services, endpoints](https://github.com/netology-code/devkub-homeworks/blob/main/13-kubernetes-01-objects.md)
 
-13.2. [Разделы и монтирование]()
+13.2. [Разделы и монтирование](https://github.com/netology-code/devkub-homeworks/blob/main/13-kubernetes-02-mounts.md)
 
-13.3. [Работа c Kubectl]()
+13.3. [Работа c Kubectl](https://github.com/netology-code/devkub-homeworks/blob/main/13-kubernetes-03-kubectl.md)
 
-13.4. [Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet]()
+13.4. [Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet](https://github.com/netology-code/devkub-homeworks/blob/main/13-kubernetes-04-helm.md)
 
-13.5. [Поддержка нескольких окружений на примере Qbec]()
+13.5. [Поддержка нескольких окружений на примере Qbec](https://github.com/netology-code/devkub-homeworks/blob/main/13-kubernetes-05-qbec.md)
 
 
 ## Дополнительные материалы
 
 [Модуль 11. Микросервисная архитектура](https://github.com/netology-code/devkub-homeworks/tree/main/11-microservices-02-principles)
+[Модуль 13. Пример приложения для упаковки и запуска в Kubernetes](https://github.com/netology-code/devkub-homeworks/tree/main/13-kubernetes-config)
