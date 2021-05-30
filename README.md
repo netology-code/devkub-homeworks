@@ -48,4 +48,5 @@
 ## Дополнительные материалы
 
 [Модуль 11. Микросервисная архитектура](https://github.com/netology-code/devkub-homeworks/tree/main/11-microservices-02-principles)
+
 [Модуль 13. Пример приложения для упаковки и запуска в Kubernetes](https://github.com/netology-code/devkub-homeworks/tree/main/13-kubernetes-config)
