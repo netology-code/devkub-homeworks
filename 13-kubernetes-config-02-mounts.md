@@ -3,7 +3,8 @@
 Для настройки NFS сервера можно воспользоваться следующей инструкцией (производить под пользователем на сервере, у которого есть доступ до kubectl):
 * установить helm: curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 * добавить репозиторий чартов: helm repo add stable https://charts.helm.sh/stable && helm repo update
-* установить nfs-server через helm: helm install nfs-server stable/nfs-server-provisioner --set persistence.enabled=true,persistence.storageClass=do-block-storage,persistence.size=20Gi
+* установить nfs-server через helm: helm install nfs-server stable/nfs-server-provisioner
+
 В конце установки будет выдан пример создания PVC для этого сервера.
 
 ## Задание 1: подключить для тестового конфига общую папку
