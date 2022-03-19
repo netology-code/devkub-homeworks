@@ -86,3 +86,11 @@ curl -X GET http://localhost/images/4e6df220-295e-4231-82bc-45e4b1484430.jpg
 ---
 
 #### [Дополнительные материалы: как запускать, как тестировать, как проверить](https://github.com/netology-code/devkub-homeworks/tree/main/11-microservices-02-principles)
+
+---
+
+### Как оформить ДЗ?
+
+Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
+
+---
