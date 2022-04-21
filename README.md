@@ -8,7 +8,7 @@
 
 Любые вопросы по решению задач задавайте в чате учебной группы (ссылку вы найдете в письме на вашей эл. почте).
 
-## Модуль 11. Микросервисная архитектура
+## Блок 11. Микросервисная архитектура
 
 11.1. [Введение в микросервисы](https://github.com/netology-code/devkub-homeworks/blob/main/11-microservices-01-intro.md)
 
@@ -19,7 +19,7 @@
 11.4. [Микросервисы: масштабирование](https://github.com/netology-code/devkub-homeworks/blob/main/11-microservices-04-scaling.md)
 
 
-## Модуль 12. Администрирование кластера Kubernetes
+## Блок 12. Администрирование кластера Kubernetes
 
 12.1. [Компоненты Kubernetes](https://github.com/netology-code/devkub-homeworks/blob/main/12-kubernetes-01-intro.md)
 
