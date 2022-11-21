@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+databases = {extras = ["postgresql"], version = "*"}
+asyncpg = "*"
+pydantic = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.9"
