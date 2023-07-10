@@ -29,7 +29,7 @@ $ curl -X POST -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ey
 ```
 
  ## Проверить
-Загрузить картинку и проверить что она открывается
+Загрузить картинку и проверить, что она открывается
 ```
 curl localhost/image/<filnename> > <filnename>
 ```
